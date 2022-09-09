@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Manage Landing Page</title>
+  </head>
+  <body>
+    <!-- Navbar 
+    mx -> margin to right and left
+    mr -> margin to the right / ml -> margin to the left
+    mx-auto -> centralize related to right/left
+    my -> margin on the top and bottom
+    p -> padding
+    -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo -->
+        <div class="pt-2">
+          <img src="img/logo.svg" alt="" />
+        </div>
+        <!-- 
+            x -> horizontal
+            y -> vertical
+         -->
+        <!-- Menu items -->
+        <!-- it's mobile first, the default is hidden, but it's displayed in md devides-->
+        <!-- space is the space between the items -->
+        <div class="hidden md:flex space-x-6">
+          <a href="Pricing" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="Product" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="About" class="hover:text-darkGrayishBlue">About</a>
+          <a href="Careers" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="Community" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
+        <!-- Button -->
+      </div>
+    </nav>
+  </body>
+</html>
